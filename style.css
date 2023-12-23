@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body, html {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+.top-bar {
+    background-color: #000; /* Black background */
+    color: white;
+    padding: 10px 20px; /* Padding on top and bottom, and sides */
+    text-align: right; /* Align text to the right */
+    position: fixed;
+    width: 100%; /* Full width */
+    top: 0;
+    z-index: 1000;
+}
+
+.top-bar-container {
+    max-width: 100%; /* Full width */
+    padding-right: 20px; /* Padding on the right */
+    display: flex;
+    justify-content: flex-end; /* Align content to the right */
+    align-items: center;
+    height: 100%;
+}
+
+.top-bar-link {
+    color: white;
+    text-decoration: none;
+    margin-left: 30px; /* Space between links */
+    font-size: 16px;
+    font-weight: 400;
+    transition: color 0.3s ease;
+}
+
+.top-bar-link:hover {
+    color: #a8eb12; /* Highlight color */
+}
+
+/* Hero Section */
+.hero {
+    background: url('https://images.pexels.com/photos/1683328/pexels-photo-1683328.jpeg?cs=srgb&dl=pexels-ricky-esquivel-1683328.jpg&fm=jpg') no-repeat center center/cover; /* Replace with your image */
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    padding-top: 60px; /* Make room for the top bar */
+}
+
+.hero-text {
+    max-width: 600px;
+    position: relative;
+    z-index: 2;
+}
+
+.hero .logo {
+    max-width: 200px; /* Adjust the logo size */
+    margin-bottom: 20px;
+    position: relative;
+    z-index: 2;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+}
+
+/* Section Styles */
+section {
+    padding: 50px 0;
+    text-align: center;
+    background-color: #ffffff; /* Solid background for sections */
+}
+
+section h2 {
+    font-size: 2.5rem; /* Increased font size */
+    color: #333;
+    margin-bottom: 20px;
+    font-weight: 700; /* Bold font weight */
+}
+
+section p {
+    font-size: 1.5rem; /* Increased font size */
+    max-width: 800px; /* Adjusted width */
+    margin: 20px auto; /* Added vertical margin */
+    line-height: 1.8; /* Increased line height for readability */
+    color: #333; /* Darker color for text */
+}
+
+/* Contact Form Styles */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: left;
+}
+
+.contact-form {
+    background: #f9f9f9;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.contact-form button {
+    background-color: #007aff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color: #0056b3;
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 768px) {
+    .top-bar-container {
+        padding-right: 15px; /* Adjust right padding on mobile */
+    }
+
+    .top-bar-link {
+        font-size: 14px; /* Smaller font size for mobile */
+        margin-left: 15px; /* Less space between links on mobile */
+    }
+
+    .hero h1 {
+        font-size: 1.8rem; /* Smaller font size for mobile */
+    }
+
+    .hero p {
+        font-size: 1rem; /* Smaller font size for mobile */
+    }
+
+    section h2 {
+        font-size: 2rem; /* Adjust font size for mobile */
+    }
+
+    section p {
+        font-size: 1.2rem; /* Adjust font size for mobile */
+    }
+}
