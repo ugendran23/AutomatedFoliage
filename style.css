@@ -14,21 +14,21 @@ body, html {
 }
 
 .top-bar {
-    background-color: #000; /* Black background */
+    background-color: #000; 
     color: white;
-    padding: 10px 20px; /* Padding on top and bottom, and sides */
-    text-align: right; /* Align text to the right */
+    padding: 10px 20px; 
+    text-align: right; 
     position: fixed;
-    width: 100%; /* Full width */
+    width: 100%; 
     top: 0;
     z-index: 1000;
 }
 
 .top-bar-container {
-    max-width: 100%; /* Full width */
-    padding-right: 20px; /* Padding on the right */
+    max-width: 100%; 
+    padding-right: 20px; 
     display: flex;
-    justify-content: flex-end; /* Align content to the right */
+    justify-content: flex-end; 
     align-items: center;
     height: 100%;
 }
@@ -36,14 +36,14 @@ body, html {
 .top-bar-link {
     color: white;
     text-decoration: none;
-    margin-left: 30px; /* Space between links */
+    margin-left: 30px; 
     font-size: 16px;
     font-weight: 400;
     transition: color 0.3s ease;
 }
 
 .top-bar-link:hover {
-    color: #a8eb12; /* Highlight color */
+    color: #a8eb12; 
 }
 
 /* Hero Section */
@@ -56,7 +56,7 @@ body, html {
     justify-content: center;
     color: white;
     text-align: center;
-    padding-top: 60px; /* Make room for the top bar */
+    padding-top: 60px; 
 }
 
 .hero-text {
@@ -66,7 +66,7 @@ body, html {
 }
 
 .hero .logo {
-    max-width: 200px; /* Adjust the logo size */
+    max-width: 200px; 
     margin-bottom: 20px;
     position: relative;
     z-index: 2;
@@ -85,25 +85,23 @@ body, html {
 section {
     padding: 50px 0;
     text-align: center;
-    background-color: #ffffff; /* Solid background for sections */
+    background-color: #ffffff; 
 }
 
 section h2 {
-    font-size: 2.5rem; /* Increased font size */
+    font-size: 2.5rem; 
     color: #333;
     margin-bottom: 20px;
-    font-weight: 700; /* Bold font weight */
+    font-weight: 700; 
 }
 
 section p {
-    font-size: 1.5rem; /* Increased font size */
-    max-width: 800px; /* Adjusted width */
-    margin: 20px auto; /* Added vertical margin */
-    line-height: 1.8; /* Increased line height for readability */
-    color: #333; /* Darker color for text */
+    font-size: 1.5rem; 
+    max-width: 800px; 
+    margin: 20px auto; 
+    line-height: 1.8; 
+    color: #333; 
 }
-
-/* Contact Form Styles */
 .container {
     max-width: 800px;
     margin: 0 auto;
@@ -140,27 +138,26 @@ section p {
     background-color: #0056b3;
 }
 
-/* Media Queries for Responsive Design */
 @media (max-width: 768px) {
     .top-bar-container {
-        padding-right: 15px; /* Adjust right padding on mobile */
+        padding-right: 15px; 
     }
 
     .top-bar-link {
-        font-size: 14px; /* Smaller font size for mobile */
-        margin-left: 15px; /* Less space between links on mobile */
+        font-size: 14px; 
+        margin-left: 15px; 
     }
 
     .hero h1 {
-        font-size: 1.8rem; /* Smaller font size for mobile */
+        font-size: 1.8rem; 
     }
 
     .hero p {
-        font-size: 1rem; /* Smaller font size for mobile */
+        font-size: 1rem; 
     }
 
     section h2 {
-        font-size: 2rem; /* Adjust font size for mobile */
+        font-size: 2rem; 
     }
 
     section p {
