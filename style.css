@@ -46,7 +46,6 @@ body, html {
     color: #a8eb12; 
 }
 
-/* Hero Section */
 .hero {
     background: url('https://images.pexels.com/photos/1683328/pexels-photo-1683328.jpeg?cs=srgb&dl=pexels-ricky-esquivel-1683328.jpg&fm=jpg') no-repeat center center/cover; /* Replace with your image */
     height: 100vh;
@@ -81,7 +80,6 @@ body, html {
     font-size: 1.2rem;
 }
 
-/* Section Styles */
 section {
     padding: 50px 0;
     text-align: center;
